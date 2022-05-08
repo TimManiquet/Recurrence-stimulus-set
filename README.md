@@ -32,6 +32,42 @@ Here is the structure of the repository:
 │       └── CEandSCmatlab
 └── stimulus_set 
 
+/imageProcessing
+├── COCOimages
+├── bckgrndImages
+│   ├── heavy_clutter
+│   ├── inputImages
+│   ├── light_clutter
+│   ├── scrambled_heavy_clutter
+│   └── scrambled_light_clutter
+├── clutter copy
+│   ├── heavy
+│   └── light
+├── images
+├── output
+│   ├── clutter
+│   │   ├── heavy
+│   │   └── light
+│   ├── control_images
+│   │   └── images
+│   ├── occlusionOuput
+│   │   ├── blob_high
+│   │   ├── blob_low
+│   │   ├── deletion_high
+│   │   ├── deletion_low
+│   │   ├── partialViewing_high
+│   │   └── partialViewing_low
+│   └── scramblingOuput
+│       ├── highPass
+│       └── lowPass
+├── scramblingOuput copy
+│   ├── highPass
+│   └── lowPass
+├── scripts
+│   └── LGNstatistics-master
+│       └── CEandSCmatlab
+└── stimulus_set
+
 ## Usage
 The scripts in this repository are designed to import natural images from the MS COCO dataset ([https://cocodataset.org/#home)](https://cocodataset.org/#home), segment out the object they contain, and apply a number of manipulations to the object. Here is a brief description of what each script is made for, in sequence of usage:
 1. `coco_segment_instances.ipynb ` downloads images of objects from given categories found in the MS COCO database. For the sake of dependencies and memory, this script is best run in Google Colab.
