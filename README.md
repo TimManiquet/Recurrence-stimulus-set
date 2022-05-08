@@ -3,7 +3,8 @@
 The present repository contains resources aimed at building a dataset of images that have some visual properties suited for studying recurrence processing in visual object recognition.
 
 ## Structure
-Here is the structure of the repository:
+Upon usage of all its tools, this directory should have the following structure:
+```
 .
 ├── COCOimages
 ├── bckgrndImages
@@ -31,42 +32,7 @@ Here is the structure of the repository:
 │   └── LGNstatistics-master
 │       └── CEandSCmatlab
 └── stimulus_set 
-
-/imageProcessing
-├── COCOimages
-├── bckgrndImages
-│   ├── heavy_clutter
-│   ├── inputImages
-│   ├── light_clutter
-│   ├── scrambled_heavy_clutter
-│   └── scrambled_light_clutter
-├── clutter copy
-│   ├── heavy
-│   └── light
-├── images
-├── output
-│   ├── clutter
-│   │   ├── heavy
-│   │   └── light
-│   ├── control_images
-│   │   └── images
-│   ├── occlusionOuput
-│   │   ├── blob_high
-│   │   ├── blob_low
-│   │   ├── deletion_high
-│   │   ├── deletion_low
-│   │   ├── partialViewing_high
-│   │   └── partialViewing_low
-│   └── scramblingOuput
-│       ├── highPass
-│       └── lowPass
-├── scramblingOuput copy
-│   ├── highPass
-│   └── lowPass
-├── scripts
-│   └── LGNstatistics-master
-│       └── CEandSCmatlab
-└── stimulus_set
+```
 
 ## Usage
 The scripts in this repository are designed to import natural images from the MS COCO dataset ([https://cocodataset.org/#home)](https://cocodataset.org/#home), segment out the object they contain, and apply a number of manipulations to the object. Here is a brief description of what each script is made for, in sequence of usage:
