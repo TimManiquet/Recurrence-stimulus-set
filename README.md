@@ -43,4 +43,5 @@ The scripts in this repository are designed to import natural images from the MS
 5. `bckgrndClutter.ipynb` reads the images imported from MS COCO (from `1.` ) and outputs (1.) resized versions of each object on a plain background, and (2.) resized version of each object on cluttered backgrounds (output from `4.`).
 6. `cpdImageScrambling.ipynb` takes in images with plain backgrounds from `5.`, Fourier transforms them, scrambles their phase spectrum above and below a given threshold and outputs a low- and high-pass scrambled version of images.
 7. `occlusion.ipynb` takes in images with plain backgrounds from `5.` and applies occlusion manipulations on them. Three different manipulations are used: _blob_, _partial viewing_ and _deletion_; each at two different levels of difficulty: _high_ and _low_. 
-8. `histMatching.ipynb` takes in all output images from `5(2.)`, `6` and `7`, extracts their average pixel value histogram and equates all images to that histogram. Equalised images are then written in the `stimulus_set` folder.
+
+All the output images created by the different manipulations are stored in the `output` folder.
