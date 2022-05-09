@@ -28,10 +28,9 @@ Upon usage of all its tools, this directory should have the following structure:
 │   └── scramblingOuput
 │       ├── highPass
 │       └── lowPass
-├── scripts
-│   └── LGNstatistics-master
-│       └── CEandSCmatlab
-└── stimulus_set 
+└── scripts
+    └── LGNstatistics-master
+        └── CEandSCmatlab
 ```
 
 ## Usage
